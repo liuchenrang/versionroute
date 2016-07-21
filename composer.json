@@ -1,0 +1,11 @@
+{
+    "name": "jiuyan/versionroute",
+    "description": "lumen version route",
+    "authors": [
+        {
+            "name": "xinghuo",
+            "email": "xinghuo@In66.com"
+        }
+    ],
+    "require": {}
+}
