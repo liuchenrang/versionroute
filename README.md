@@ -2,7 +2,7 @@
 lumen version route
 
 config demo
-
+````
 return [
     'versions' => [
         'v1' => [
@@ -24,9 +24,10 @@ return [
     ]
 
 ];
+
+
 enable 
 $app->register(Jiuyan\VersionRoute\VersionRouteServiceProvider::class);
-
 
 |____Http
 | |____Controllers
@@ -38,3 +39,4 @@ $app->register(Jiuyan\VersionRoute\VersionRouteServiceProvider::class);
 | | | | | |____NoteController.php
 | | | | |____V20
 | | | | | |____NoteController.php
+````
